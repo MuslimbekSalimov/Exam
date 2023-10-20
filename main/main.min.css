@@ -505,6 +505,9 @@ img {
   .footer__images {
     display: none;
   }
+  .footer__images {
+    display: none;
+  }
 }
 .header {
   padding-top: 40px;
