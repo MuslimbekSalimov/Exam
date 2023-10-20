@@ -5,8 +5,7 @@
         display: flex;
 
         & .page__heading {
-            max-width: 445px;
-            width: 100%;
+            width: 445px;
             color: #36536B;
             font-family: "DM Serif Display";
             font-size: 48px;
@@ -17,8 +16,7 @@
         }
 
         & .page__text {
-            max-width: 445px;
-            width: 100%;
+            width: 445px;
             color: #6C8294;
             font-family: "Public Sans";
             font-size: 15px;
@@ -33,4 +31,15 @@
     }
 
     
+}
+
+@media only screen and (max-width:768px) {
+    .page__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page__hed {
+        text-align: center;
+    }
 }

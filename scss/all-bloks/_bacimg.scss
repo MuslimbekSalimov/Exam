@@ -5,8 +5,7 @@
     z-index: -2;
     transform: translate(650px, -140px);
     position: 40px;
-    max-width: 580px;
-    width: 100%;
+    width: 580px;
     height: 780px;
 }
 
@@ -14,11 +13,11 @@
     background:url(../images/center1.png) no-repeat;
     background-size: auto;
     position: absolute;
-    z-index: -2;
+    // z-index: -2;
     // transform: translate(650px, -140px);
+    transform: translate(-39px);
     position: 40px;
-    max-width: 780px;
-    width: 100%;
+    width: 780px;
     height: 780px; 
 }
 

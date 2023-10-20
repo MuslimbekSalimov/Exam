@@ -1,16 +1,16 @@
 .footer {
+    background-color: #1B262F;
+    transform: translateY(200px);
 
-    .container {
-        max-width: 1440px;
-        width: 100%;
+    .footer__pleace {
+        width: 1440px;
         height: 200px;
-        // padding-bottom: 31px;
-        background-color: #1B262F;
+        padding-bottom: 31px;
+        // background-color: #1B262F;
     }
 
     & .footer__info {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        display: flex;
         padding-top: 81px;
         padding-left: 60px;
     }
@@ -39,4 +39,25 @@
         // padding-top: 31px;
         transform: translateY(15px);
     }
+}
+
+@media only screen and (max-width:768px) {
+       .footer {
+           max-width: 768px;
+           width: 100%;
+           background-color: #1B262F;   
+       }
+
+    //    .footer__info {
+    //     max-width: 780px;
+    //     width: 100%;
+    //    }
+
+    .footer__images {
+        display: none;
+    }
+
+    // .footer__info {
+    //     // max-width: 780px;
+    // }
 }
